@@ -49,7 +49,7 @@
     font-size: 1rem;
     padding: 0.9rem 1rem;
     color: #FFFFFF;
-    background-color:#f0932b;
+    background-color:rgba(255,0,0,1);
     border: none;
     border-radius: 0.3rem;
 }
@@ -145,7 +145,7 @@
 /* set a routine section style start */
 
 .set-section{
-    margin-top: 200px;
+    margin-top: 150px;
     padding: 2rem 0;
     text-align: center;
 }
@@ -167,7 +167,7 @@
 }
 
 .set-item{
-    background-color: #e6e9eb;
+    background-color: #fff;
     padding: 1.6rem 0.7rem;
     box-shadow: 0 0 4px #e6e9eb,
     0 0 1px #e6e9eb;
@@ -184,14 +184,17 @@
     text-transform: uppercase;
 }
 .set-item p{
+    color: #5b5050;
     padding: 1.5rem 0;
     line-height: 27px;
 }
 .set-primary{
+
     padding: 0.4rem 0.9rem;
     border-radius: 0.3rem;
-    border: 2px solid #181818;
+    border: 1px solid #181818;
     color: #181818;
+    background-color: #fff;
     font-size: 1rem;
     font-weight: 600;
     transition: 0.4s ease-in-out;
@@ -203,4 +206,54 @@
 
 /* set a routine section style start */
 
+
+
+
+
+
+/* positive section style start */
+
+
+.positive-section{
+    margin: 130px 0;
+    height: 250px;
+    background: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1)), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    
+}
+
+
+.positive-container{
+    width: 50%;
+    padding: 2rem 3.5rem;
+}
+.positive-title{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.positive-primary{
+    font-weight: 600;
+    margin-top: 0.2rem;
+    padding: 0.8rem 1.8rem;
+    color: rgba(255,0,0,1);
+    background-color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+
+}
+
+/* positive section style end */
+
+
+
+
 /* main section style end */
+
+
+
+/* footer section style start */
+
+
+/* footer section style end */
